@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="491.0" prefWidth="659.0" style="-fx-background-color: #1d2429;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+
+   <ImageView fitHeight="130.0" fitWidth="158.0" layoutX="265.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@images/login.png" />
+   </ImageView>
+   <PasswordField layoutX="230.0" layoutY="279.0" prefHeight="30.0" prefWidth="200.0" promptText="Password">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font></PasswordField>
+   <TextField layoutX="230.0" layoutY="218.0" prefHeight="30.0" prefWidth="200.0" promptText="Username">
+      <font>
+         <Font name="System Bold" size="12.0" />
+      </font>
+   </TextField>
+   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="440.0" layoutY="215.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@images/id-card.png" />
+   </ImageView>
+   <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="440.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="@images/shield.png" />
+   </ImageView>
+   <Button alignment="CENTER" layoutX="230.0" layoutY="333.0" maxWidth="200.0" minWidth="200.0" mnemonicParsing="false" style="-fx-background-color: #34BEA5; -fx-background-radius: 30px;" text="LOG IN" textAlignment="CENTER" textFill="#1d2429" />
+   <Button layoutX="253.0" layoutY="373.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="25.0" prefWidth="155.0" style="-fx-background-color: #34BEA5; -fx-background-radius: 30px;" text="Don't have an Account?" textAlignment="CENTER" textFill="#1d2429" />
+</AnchorPane>
