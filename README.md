@@ -5,4 +5,4 @@ this project was influenced by desgin and color as i like the android color sche
 
 the android HEX color value is #3ddc84 
 
-![Drag Racing](Dragster.jpg)
+
